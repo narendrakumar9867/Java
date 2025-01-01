@@ -306,6 +306,6 @@ public class Test {
         do {
             System.out.println("value of x: "+ x);
             x++;
-        } while( x < 20 );
+        } while( x < 30 );
     }
 }
