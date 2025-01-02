@@ -298,14 +298,51 @@ import java.util.Date;
 //     }
 // }
 
-// do...while loop
+
 public class Test {
     public static void main(String []args) {
         int x = 10;
 
-        do {
-            System.out.println("value of x: "+ x);
-            x++;
-        } while( x < 30 );
+        // do...while loop
+        // do {
+        //     System.out.println("value of x: "+ x);
+        //     x++;
+        // } while( x < 30 );
+
+        // break statement
+        // while( x < 20 ) {
+        //     if(x == 15){
+        //         break;
+        //     }
+        //     System.out.println("value of x: " + x);
+        //     x++;
+        // }
+
+        // int [] numbers = {10, 20, 30, 40, 50};
+
+        // for(int index= 0; index < numbers.length; index++) {
+        //     if(numbers[index] == 15) {
+        //         break;
+        //     }
+        //     System.out.println("value of number: " + numbers[index]);
+        // }
+
+        // while(x < 20) {
+        //     x++;
+        //     if(x == 15) {
+        //         continue;
+        //     }
+        //     System.out.println("value of x: " + x);
+        // }
+
+        int [] numbers = {10, 20, 30, 40, 50};
+
+        for(int index = 0; index < numbers.length; index++){
+            if (x == 20){
+                continue;
+            }
+            System.out.println("value of number: " + numbers[index]);
+        }
     }
 }
+
